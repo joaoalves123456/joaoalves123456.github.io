@@ -13,7 +13,7 @@ const background = new Sprite({
     x: 0,
     y: 0
   },
-  imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/Background.png'
+  imageSrc: 'img/Background.png'
 })
 
 const shop = new Sprite({
@@ -21,7 +21,7 @@ const shop = new Sprite({
     x: 600,
     y: 128
   },
-  imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/shop.png',
+  imageSrc: 'img/shop.png',
   scale: 2.75,
   framesMax: 6
 })
@@ -39,7 +39,7 @@ const player = new Fighter({
     x: 0,
     y: 0
   },
-  imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Idle.png',
+  imageSrc: 'img/samuraiMack/Idle.png',
   framesMax: 8,
   scale: 2.5,
   offset: {
@@ -48,31 +48,31 @@ const player = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Idle.png',
+      imageSrc: 'img/samuraiMack/Idle.png',
       framesMax: 8
     },
     run: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Run.png',
+      imageSrc: 'img/samuraiMack/Run.png',
       framesMax: 8
     },
     jump: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Jump.png',
+      imageSrc: 'img/samuraiMack/Jump.png',
       framesMax: 2
     },
     fall: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Fall.png',
+      imageSrc: 'img/samuraiMack/Fall.png',
       framesMax: 2
     },
     attack1: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Attack1.png',
+      imageSrc: 'img/samuraiMack/Attack1.png',
       framesMax: 6
     },
     takeHit: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Take%20Hit%20-%20white%20silhouette.png',
+      imageSrc: 'img/samuraiMack/Take Hit - white silhouette.png',
       framesMax: 4
     },
     death: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Death.png',
+      imageSrc: 'img/samuraiMack/Death.png',
       framesMax: 6
     }
   },
@@ -100,7 +100,7 @@ const enemy = new Fighter({
     x: -50,
     y: 0
   },
-  imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Idle.png',
+  imageSrc: 'img/kenji/Idle.png',
   framesMax: 4,
   scale: 2.5,
   offset: {
@@ -109,31 +109,31 @@ const enemy = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Idle.png',
+      imageSrc: 'img/kenji/Idle.png',
       framesMax: 4
     },
     run: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Run.png',
+      imageSrc: 'img/kenji/Run.png',
       framesMax: 8
     },
     jump: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Jump.png',
+      imageSrc: 'img/kenji/Jump.png',
       framesMax: 2
     },
     fall: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Fall.png',
+      imageSrc: 'img/kenji/Fall.png',
       framesMax: 2
     },
     attack1: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Attack1.png',
+      imageSrc: 'img/kenji/Attack1.png',
       framesMax: 4
     },
     takeHit: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Take%20hit.png',
+      imageSrc: 'img/kenji/Take hit.png',
       framesMax: 3
     },
     death: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Death.png',
+      imageSrc: 'img/kenji/Death.png',
       framesMax: 7
     }
   },
