@@ -308,6 +308,13 @@ window.addEventListener('keydown', (event) => {
         break
     }
   }
+
+  if (enemy.dead || player.dead) {
+    if (confirm('Queres reiniciar o jogo?')) {
+      console.log('Reiniciar o jogo');
+      window.location.reload();
+    }
+  }
 })
 
 window.addEventListener('keyup', (event) => {
