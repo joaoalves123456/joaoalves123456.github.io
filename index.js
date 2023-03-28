@@ -68,7 +68,7 @@ const player = new Fighter({
       framesMax: 6
     },
     takeHit: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Take Hit - white silhouette.png',
+      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/samuraiMack/Take%20Hit%20-%20white%20silhouette.png',
       framesMax: 4
     },
     death: {
@@ -129,7 +129,7 @@ const enemy = new Fighter({
       framesMax: 4
     },
     takeHit: {
-      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Take hit.png',
+      imageSrc: 'https://raw.githubusercontent.com/jozzymerda/jozzymerda.github.io/main/img/kenji/Take%20hit.png',
       framesMax: 3
     },
     death: {
